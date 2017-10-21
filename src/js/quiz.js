@@ -192,7 +192,7 @@
 	 	const form = document.createElement('form');
 		form.setAttribute('id', id);
 		form.innerHTML = html;
-    document.body.appendChild(form);
+    document.getElementById('myQuiz').appendChild(form);
 	}
 
 	function bindSubmit(document) {
